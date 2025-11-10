@@ -1,0 +1,7 @@
+{
+  "buildCommand": "prisma generate && next build",
+  "env": {
+    "DATABASE_URL": "postgresql://neondb_owner:npg_M0xD1VfgqXwS@ep-ancient-feather-adj849m7-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require",
+    "COINGECKO_API_URL": "https://api.coingecko.com/api/v3/simple/price"
+  }
+}
